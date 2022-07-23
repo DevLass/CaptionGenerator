@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Captions Generator</title>
+</head>
+<body>
+    <h1> Captions Gen </h1>
+    <!-- 
+        What i want to do
+        git and linkedin icons
+        Animation to copy
+     -->
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="active purple-hover lang-button" onclick="change_lang()"><i data-feather="map-pin"></i></li>
+                <li class="active purple-hover info-button" onclick="about_button()"><i data-feather="info"></i></li>
+            </ul>
+            <ul>
+                <li class="active purple-hover refresh-button" onclick="random_text(), refresh()"><i data-feather="refresh-cw"></i></li>
+                <li class="active purple-hover copy-button" onclick="copy()"><i data-feather="copy"></i></li>
+                <li class="thumbs-up thumbs-up-hover"  onclick="thumbs_up_animation()"><i data-feather="thumbs-up"></i> </li>
+                <li class="thumbs-down thumbs-down-hover" onclick="thumbs_down_animation()"><i data-feather="thumbs-down"></i></li>
+            </ul>
+        </nav>
+        <div class="text-container">  
+            <p class="text">Nada lhe aptece porque você é otário</p>
+        </div>
+        <footer>
+            <ul>
+                <li class="thumbs-up thumbs-up-hover" onclick="thumbs_up_animation()"><i data-feather="thumbs-up"></i> </li>
+                <li class="active purple-hover back-button" onclick="back()"><i data-feather="corner-down-left"></i></li>
+                <li class="thumbs-down thumbs-down-hover" onclick="thumbs_down_animation()"><i data-feather="thumbs-down"></i></li>
+            </ul>
+        </footer>
+    </div>
+    <div class="social_icons">
+        <ul>
+            <li>
+                <a href="https://github.com/italicnich" target="_blank" rel="external">
+                    <i data-feather="github"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/nicollas-venancio/" target="_blank" rel="external">
+                    <i data-feather="linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+         feather.replace()
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
