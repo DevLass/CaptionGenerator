@@ -8,7 +8,7 @@
  
  
 <p align="center">
-  <img src="https://github.com/italicnich/CaptionGenerator/blob/main/readmeimg/code.png" alt="Code Preview">
+  <img src="https://github.com/italicnich/CaptionGenerator/blob/main/readmeimg/code.png" alt="Code Preview" width="400">
 </p>
 
 <h3 align="justify">
